@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: employee_source
+    description: "Model that selects and exposes employee data from the source table Test_Ru.Learning_Ru.employee."
+    columns:
+      - name: employee_id
+        description: "Unique identifier for each employee"
+        tests:
+          - not_null
+          - unique
+
+      - name: first_name
+        description: "First name of the employee"
+
+      - name: last_name
+        description: "Last name of the employee"
+
+      - name: email
+        description: "Work email address of the employee"
+        tests:
+          - not_null
