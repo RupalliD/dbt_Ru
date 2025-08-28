@@ -37,6 +37,7 @@ models:
   +materialized: table
   +database: Test_Ru
   +schema: Learning_Ru
-employee:
-    
+  my_new_project:
+    # Applies to all files under models/example/
+    example:
       +materialized: table
