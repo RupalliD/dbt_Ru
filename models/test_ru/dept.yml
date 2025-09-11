@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: department_table
+    database: TEST_RU
+    schema: LEARNING_RU
+
+    tables:
+      - name: DEPARTMENTS
+        description: "It is the table of the departments of the employee that are mentioned in the employee table"

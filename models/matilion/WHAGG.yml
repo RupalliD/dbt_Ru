@@ -1,0 +1,7 @@
+version:2
+sources : 
+  -name: MUP 
+    database: ANALYTICS
+    schema:CUSTOMER360
+    tables:
+      -name: PATRON_WH_AGG_STATS_INTERMEDIATE

@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: rupalli                 
+    tables:
+      - name: dbt_matilion        
+        description: "Table loaded by Matillion job"
+        columns:
+          - name: order_id         
+            description: "Order ID"
+          - name: customer_id
+            description: "Customer ID"
+          - name: order_date
+            description: "Order Date"
+          - name: total_amount
+            description: "Total Order Amount"
+          - name: order_status
+            description: "Order Status"

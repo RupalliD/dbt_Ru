@@ -1,0 +1,7 @@
+version:2
+sources : 
+  -name: ANURAG
+    database: AGXPROJECT
+    schema:RUPALLI
+    tables:
+      -name:ru_api
